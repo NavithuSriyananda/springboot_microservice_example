@@ -1,18 +1,18 @@
 package com.example.microservices.model;
 
 public class Todo {
-	private String task;
+	private String todo;
 
-	public Todo(String task) {
-		this.setTask(task);
+	public Todo(String todo) {
+		this.setTodo(todo);
 	}
 
-	public String getTask() {
-		return task;
+	public String getTodo() {
+		return todo;
 	}
 
-	public void setTask(String task) {
-		this.task = task;
+	public void setTodo(String todo) {
+		this.todo = todo;
 	}
 
 }
