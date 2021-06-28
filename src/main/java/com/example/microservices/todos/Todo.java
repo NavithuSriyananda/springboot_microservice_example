@@ -1,4 +1,4 @@
-package com.example.microservices.model;
+package com.example.microservices.todos;
 
 public class Todo {
 	private String todo;
